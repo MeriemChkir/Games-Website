@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(186, 110, 189, 0.849),#eec253);
+}
+.grid {
+    width: 400px;
+    height: 600px;
+    background-image: url('background.png');
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  .doodler {
+    width: 87px;
+    height: 85px;
+    background-image: url('doodler-guy.png');
+    position: absolute;
+  }
+  
+  .platform {
+    width: 85px;
+    height: 15px;
+    background-image: url('platform.png');
+    position: absolute;
+  }
+
+  #game-over-area {
+    text-align: center;
+    border: indigo 8px solid;
+    padding: 50px;
+    width: 50%;
+    margin-top: 50px;
+  }
+
+  h2 {
+    color: currentColor;
+    font-size: 2em;
+    margin-top: 0px;
+  }
+  button {
+    background-color: transparent;
+    color: currentColor;
+    border: currentColor 1px solid;
+    padding: 10px;
+    font-size: 1.5em;
+  }
+
+  .hidden {
+    display: none;
+  }
